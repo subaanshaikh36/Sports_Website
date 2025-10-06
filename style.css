@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    border:1px solid;
+}
+#header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#icon,#nav,#menu{
+    display: none;
+}
+#submenu{
+    width: 100%;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+#img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#text
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#showmenu{
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 30px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+#main1img{
+    width: 100%;
+}
+#main1img img{
+    width: 100%;
+}
+
+#main1text{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+/* main 1 end */
+#main2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+.team{
+        width: 100%;
+        font-size: 25px;
+        border:1px solid;
+        text-align: center;
+        margin:20px 30px;
+        
+    }
+    #score
+    {
+        width: 100%;
+        font-size: 25px;
+        border: 1px solid;
+        text-align: center;
+        margin:0px 30px;
+        
+    }
+    #time{
+        width: 100%;
+        margin-left:30px ;
+    }
+    #main3{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #submainimg{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .imgtext{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: gray;
+        margin: 15px 0px;
+    }
+    .imgtext img{
+        width: 100%;
+    }
+    .imgtext h4{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+.imgtext h2{
+        width: 100%;
+        margin-left: 30px;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+.imgtext p{
+        width: 100%;
+        margin :15px 70px 10px 30px;
+        /* text-align: center; */
+        
+    }
+#view{
+    width: 100%;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    background-color: gray;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+#submainform{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#search{
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#search input{
+    font-size: 20px;
+}
+#search button{
+    font-size: 20px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+}
+#form{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#form input{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#form button{
+    
+    font-size: 20px;
+    /* margin-left: -10px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+#Categories{
+     width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+#Gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+#Gallery img{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cham{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     /* justify-content: center; */
+     border: 1px solid;
+     margin: 20px 30px;
+
+}
+.score{
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     border-bottom: 1px solid;
+     margin-top: 30px;
+}
+.score .team1{
+    width: 100%;
+    text-align: center;
+}
+.score .team2{
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid ;
+}
+.score .goal{
+    width: 100%;
+    text-align: center;
+}
+.score .date{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+#Sponsers{
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.footimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fimg{
+    width: 47%;
+}
+.fimg img{
+    width: 100%;
+}
+#recent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+#recentabout,#recentpost,#recenttopic,#copy{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#recentabout h3{
+    width: 100%;
+    font-size: 35px;
+    margin:20px 0px;
+}
+#recentabout p{
+    width: 100%;
+    /* font-size: 25px; */
+     margin-bottom:20px;
+}
+#recentabout h4{
+    width: 100%;
+    /* font-size: 25px; */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#recentpost h3{
+width: 100%;
+font-size: 35px;
+margin:20px 0px;
+
+}
+#recentpost .posts{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin :10px 0px;
+    padding-bottom: 20px;
+    /* font-size: ; */
+}
+#recenttopic h3{
+width: 100%;
+font-size: 35px;
+margin:20px 0px;
+
+}
+#recenttopic .topics{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin :10px 0px;
+    padding-bottom: 20px;
+    /* font-size: ; */
+}
+#copy{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#copy #h6{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#copy #fab{
+    width: 100%;
+    text-align: center;
+    /* font-size: 10px; */
+    margin: 5px 0px;
+}
+
+@media only screen and (min-width:1200px)
+{
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    #header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+}
+#nav{
+    width: 47%;
+    display: flex;
+    padding: 20PX;
+    font-size: 20PX;
+    color: black;
+    
+
+}
+#nav nav a{
+    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#icon{
+    width: 47%;
+    display:flex;
+    justify-content: right;
+    padding: 20PX;
+    font-size: 30px;
+    
+}
+#submenu{
+    display: none;
+}
+#img{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+#img img{
+    width: 30%;
+    
+}
+#text
+{
+    width: 50%;
+    text-align: right;
+    padding: 40px;
+    /* align-items: center; */
+}
+#showmenu{
+   display: none;
+}
+#menu{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    background-color: black;
+    padding: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0px 5px;
+
+}
+#main2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+.team{
+    width:30%;
+}
+#score{
+    width:20%;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+#score h3{
+    text-align: center;
+}
+#time{
+    width: 100%;
+}
+#main3{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    #submainimg{
+        width: 47%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .imgtext{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: gray;
+        margin: 15px 0px;
+    }
+    .imgtext img{
+        width: 100%;
+    }
+    .imgtext h4{
+        width: 100%;
+        /* margin-top: 20px; */
+        /* margin-left: 30px; */
+    }
+.imgtext h2{
+        width: 100%;
+        /* margin-left: 30px; */
+        font-size: 30px;
+        /* margin-top: 5px; */
+    }
+.imgtext p{
+        width: 100%;
+        /* margin :15px 70px 10px 30px; */
+        /* text-align: center; */
+        
+    }
+#view{
+    width: 100%;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    background-color: gray;
+    text-align: right;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#submainform{
+    width: 47%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#search{
+    width: 100%;
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    margin-top: 15px;
+}
+#search input{
+    font-size: 20px;
+}
+#search button{
+    font-size: 20px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+}
+#form{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#form input{
+    font-size: 25px;
+    /* margin-bottom: 5px; */
+}
+#form button{
+    
+    font-size: 20px;
+    /* margin-left: -10px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: right;
+    /* margin-top: 5px; */
+    padding: 5px;
+    
+}
+#Categories{
+     width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+#Gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     /* justify-content: center; */
+}
+#Gallery h2{
+    width: 100%;
+    text-align: center;
+}
+#Gallery img{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+#cham{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     /* justify-content: center; */
+     border: 1px solid;
+     margin: 20px 30px;
+
+}
+#cham h2{
+    width: 100%;
+text-align: center;
+}
+ 
+.score{
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     border-bottom: 1px solid;
+     margin-top: 30px;
+}
+.score .team1{
+    width: 100%;
+    text-align: center;
+}
+.score .team2{
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid ;
+}
+.score .goal{
+    width: 100%;
+    text-align: center;
+}
+.score .date{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+/* hbjgujv */
+
+#Sponsers{
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.footimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fimg{
+    width: 18%;
+}
+.fimg img{
+    width: 100%;
+}
+#recent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+#recentabout,#recentpost,#recenttopic{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+#copy{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#copy #h6{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#copy #fab{
+    width: 100%;
+    text-align: center;
+    /* font-size: 10px; */
+    margin: 5px 0px;
+}
+}

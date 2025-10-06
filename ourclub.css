@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    border:1px solid;
+}
+#header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#icon,#nav,#menu{
+    display: none;
+}
+#submenu{
+    width: 100%;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+#img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#text
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#showmenu{
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 30px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+#main1img{
+    width: 100%;
+}
+#main1img img{
+    width: 100%;
+}
+
+#main1text{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+#paragraph,#subpara{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 10px 5px 10px;
+    
+}
+#subpara h2{
+
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 25px;
+}
+#subpara .simple{
+    width: 100%;
+     margin: 10px 0px;
+     padding: 10px;
+}
+#subpara #hilight{
+    width: 100%;
+    border-left: 2px solid red;
+    background-color: rgb(156, 158, 158);
+     margin: 10px 0px;
+     padding: 20px;
+}
+#bgimg{
+    width: 100%;
+    background-image: url(https://themes.thememasters.club/sporty/wp-content/uploads/sites/3/2018/03/our-club2.jpg);
+    display: flex;
+    justify-content: center;
+    
+}
+#bgwhite{
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+#bgwhite h2,p{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+
+
+
+#Sponsers{
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.footimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fimg{
+    width: 47%;
+}
+.fimg img{
+    width: 100%;
+}
+#recent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+#recentabout,#recentpost,#recenttopic,#copy{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#recentabout h3{
+    width: 100%;
+    font-size: 35px;
+    margin:20px 0px;
+}
+#recentabout p{
+    width: 100%;
+    /* font-size: 25px; */
+     margin-bottom:20px;
+}
+#recentabout h4{
+    width: 100%;
+    /* font-size: 25px; */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#recentpost h3{
+width: 100%;
+font-size: 25px;
+margin-bottom: 10px;
+
+}
+#recentpost .posts{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin :10px 0px;
+    padding-bottom: 20px;
+    /* font-size: ; */
+}
+#recenttopic h3{
+width: 100%;
+font-size: 25px;
+margin-bottom: 10px;
+
+}
+#recenttopic .topics{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin :10px 0px;
+    padding-bottom: 20px;
+    /* font-size: ; */
+}
+#copy{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#copy #h6{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#copy #fab{
+    width: 100%;
+    text-align: center;
+    /* font-size: 10px; */
+    margin: 5px 0px;
+}
+@media only screen and (min-width:1200px)
+{
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    #header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+}
+#nav{
+    width: 47%;
+    display: flex;
+    padding: 20PX;
+    font-size: 25PX;
+    color: black;
+    
+
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+#icon{
+    width: 47%;
+    display:flex;
+    justify-content: right;
+    padding: 20PX;
+    font-size: 30px;
+    
+}
+#submenu{
+    display: none;
+}
+#img{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+#img img{
+    width: 30%;
+    
+}
+#text
+{
+    width: 50%;
+    text-align: right;
+    padding: 40px;
+    /* align-items: center; */
+}
+#showmenu{
+   display: none;
+}
+#menu{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    background-color: black;
+    padding: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0px 5px;
+
+}
+#bgimg{
+    width: 100%;
+    display: flex;
+    
+    justify-content: left;
+}
+#bgwhite{
+    width: 40%;
+    margin-left: 30px;
+    /* background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px; */
+
+}
+/* #bgwhite h2,p{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+} */
+
+
+
+#Sponsers{
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.footimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fimg{
+    width: 18%;
+}
+.fimg img{
+    width: 100%;
+}
+#recent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+#recentabout,#recentpost,#recenttopic{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+#copy{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#copy #h6{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#copy #fab{
+    width: 100%;
+    text-align: center;
+    /* font-size: 10px; */
+    margin: 5px 0px;
+}
+}
+
